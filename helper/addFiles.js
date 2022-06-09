@@ -13,6 +13,7 @@ const addFiles = async (channelId) => {
   const fileTypes = [
     Api.InputMessagesFilterVideo,
     Api.InputMessagesFilterDocument,
+    Api.InputMessagesFilterMusic,
   ];
 
   const files = [];
